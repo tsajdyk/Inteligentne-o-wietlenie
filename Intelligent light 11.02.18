@@ -39,10 +39,10 @@ long unsigned int lowIn;
 void setup(){
  //Fotorezystor with LCD setup begin
  pinMode(pinled1,OUTPUT);
- lcd.begin(16, 2);           //Deklaracja typu
+ lcd.begin(16, 2);           //LCD type declaration
  lcd.clear();
- Serial.begin(9600);        //inicjalizacja monitora szeregowego
- pinMode(PIR, INPUT);       //ustawienie pinu Arduino jako wejście
+ Serial.begin(9600);        
+ pinMode(PIR, INPUT);       
  Serial.println("---- TEST CZUJNIKA RUCHU ----"); 
 //Fotorezystor with LCD setup end
 
